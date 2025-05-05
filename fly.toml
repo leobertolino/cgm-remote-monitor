@@ -9,6 +9,7 @@ MONGO_CONNECTION = "mongodb+srv://nightscoutuser:Zevij101723@cluster0.z6smjuw.mo
 API_SECRET = "Zevij10172023"
 NODE_ENV = "production"
 PORT = "1337"
+ENABLE = "careportal bridge basal bolus iob profile rawbg pump cob bwp cage food meal treatments sage override openaps"
 
 [http_service]
   internal_port = 1337
