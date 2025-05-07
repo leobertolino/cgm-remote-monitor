@@ -5,8 +5,9 @@ primary_region = 'lax'
 image = "nightscout/cgm-remote-monitor:latest"
 
 [env]
-NODE_ENV = "production"
-PORT = "1337"
+  ENABLE = "careportal,bridge,basal,bolus,iob,cob,bwp,profile"
+  NODE_ENV = "production"
+  PORT = "1337"
 
 [http_service]
   internal_port = 1337
